@@ -25,7 +25,7 @@ int main(){
     try{
         b->display();
     }
-    catch(const char** msg){
+    catch(const char* msg){
         cout<<msg<<endl;
     }
     return 0;
